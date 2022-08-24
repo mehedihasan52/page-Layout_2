@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    background: #F1948A;
+}
+.container_1{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap:20px;
+    padding:10px;
+}
+.header{
+    grid-column: 1/-1;
+    grid-row: 1/7;
+    background: #58D68D;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+.left{
+    grid-column: 1/5;
+    grid-row: 7/55;
+    background: #5DADE2;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+/* Style for Artical section */
+
+.artical{
+    grid-column: 5/-1;
+    grid-row: 7/55;
+    background: #F8F9F9;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.artical .artical_container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+.a_hader{
+    grid-column: 1/-1;
+    grid-row: 1/10;
+    background: #CE93D8;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+
+}
+.a_left{
+    grid-column: 1/4;
+    grid-row: 10/80;
+    background: #00BCD4;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+
+}
+.a_middle{
+    grid-column: 4/9;
+    grid-row: 10/80;
+    background: #F39C12;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+
+}
+.a_right{
+    grid-column: 9/-1;
+    grid-row: 10/80;
+    background: #F4D03F;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+
+}
+.a_footer{
+    grid-column: 1/-1;
+    grid-row:80/93;
+    background: #CE93D8;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+.footer{
+    grid-column: 1/-1;
+    grid-row: 55/61;
+    background: #58D68D;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
